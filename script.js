@@ -19,7 +19,7 @@ function generateRandomPassword(){
 }
 
 function showPasswords(){
-    randPassword1.textContent += generateRandomPassword()
-    randPassword2.textContent += generateRandomPassword()
+    randPassword1.textContent = generateRandomPassword()
+    randPassword2.textContent = generateRandomPassword()
 }
 
